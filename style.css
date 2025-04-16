@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B4B0B0;
+  padding: 10px 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-links a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 20px;
+}
+
+.hero-box {
+  background-color: #6b443d;
+  color: white;
+  max-width: 700px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 40px 30px;
+}
+
+.hero-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-box hr {
+  width: 40px;
+  height: 4px;
+  background-color: #FF872B;
+  border: none;
+  margin: 10px auto;
+}
+
+.hero-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #FF872B;
+  color: black;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  padding: 15px 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
