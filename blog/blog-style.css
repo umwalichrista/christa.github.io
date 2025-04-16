@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #976a55; /* warm dark brown */
+    color: #f8f9fa; /* light text */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .blog-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 32px;
+    position: relative;
+  }
+  
+  h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f05f40; /* orange underline */
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-item {
+    background-color: #63473d; /* slightly lighter brown */
+    padding: 20px;
+    border-left: 5px solid #f05f40; /* orange accent */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-4px);
+  }
+  
+  .blog-item h3 {
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .blog-item .date {
+    font-size: 14px;
+    color: #d3c8c4;
+    margin: 8px 0;
+  }
+  
+  .blog-item .preview {
+    font-size: 16px;
+    color: #f1f1f1;
+    line-height: 1.6;
+  }
+  
